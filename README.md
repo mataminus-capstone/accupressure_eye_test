@@ -1,8 +1,3 @@
----
-
-# 📄 **README.md**
-
-```md
 # 👁️ Eye Acupressure Realtime Detection
 
 A realtime computer vision application that detects facial landmarks from a webcam feed and displays eye acupressure points on both eyes with automatic zoom-in and smooth tracking.
