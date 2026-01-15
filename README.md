@@ -1,8 +1,3 @@
-Siap 👍 — aku buatkan **README final** untuk proyek kamu ✨
-Aku tulis dalam format **Markdown**, siap kamu simpan sebagai `README.md`.
-
-Konteks aku sesuaikan dengan proyek kamu: Python, VS Code, realtime webcam, eye acupressure, MediaPipe Tasks API, auto zoom, smoothing, tanpa label.
-
 ---
 
 # 📄 **README.md**
@@ -152,16 +147,4 @@ Politeknik Harapan Bersama – Informatics Engineering
 
 This project is open-source and free to use for educational purposes.
 
-```
-
----
-
-### ✅ Sudah siap kamu copy & simpan sebagai `README.md`.
-
-Kalau mau, aku bisa:
-- ubah bahasa ke Indonesia penuh
-- tambah screenshot contoh output
-- sesuaikan untuk laporan kampus / jurnal / proposal
-
-tinggal bilang ya 😄
 ```
