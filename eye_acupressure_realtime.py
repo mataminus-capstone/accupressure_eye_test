@@ -69,12 +69,11 @@ while True:
 
             crop_h, crop_w, _ = face_crop.shape
             for name, idx in acupressure_points.items():
-                lm = face_landmarks[idx]
-                x = int((lm.x * w - x1s) * w / crop_w)
-                y = int((lm.y * h - y1s) * h / crop_h)
-                cv2.circle(display_frame, (x, y), 6, (0,255,0), -1)
-                cv2.putText(display_frame, name, (x+5, y-5),
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0,255,255), 1)
+               lm = face_landmarks[idx]
+               x = int((lm.x * w - x1s) * w / crop_w)
+               y = int((lm.y * h - y1s) * h / crop_h)
+               cv2.circle(display_frame, (x, y), 6, (0,255,0), -1)
+
 
     cv2.imshow("Eye Acupressure Auto Zoom Smooth", display_frame)
 
