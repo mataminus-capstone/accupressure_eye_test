@@ -1,12 +1,3 @@
-Siap 😄 — kita buatkan file **`carainstall.md`** berisi langkah-langkah instalasi yang rapi, jelas, dan siap dipakai orang lain 👍
-
-Aku tuliskan dalam format Markdown, kamu tinggal simpan sebagai `carainstall.md`.
-
----
-
-# 📄 **carainstall.md**
-
-````md
 # 🛠 Cara Install Eye Acupressure Realtime Detection
 
 Panduan ini menjelaskan langkah-langkah instalasi dan menjalankan aplikasi **Eye Acupressure Realtime Detection** di komputer lokal.
