@@ -134,7 +134,7 @@ It is **not a medical device** and should not be used for diagnosis or treatment
 ## 👨‍💻 Author
 
 Muhammad Iqbal Saputra
-Politeknik Harapan Bersama – Informatics Engineering
+Universitas Harkat Negeri – Informatics Engineering
 
 ---
 
