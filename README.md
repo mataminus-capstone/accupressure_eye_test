@@ -150,5 +150,3 @@ It is **not a medical device** and should not be used for diagnosis or treatment
 Universitas Harkat Negeri – Informatics Engineering
 
 ---
-
-## 📜 License
