@@ -8,13 +8,13 @@ This project uses **MediaPipe Face Landmarker (Tasks API)** and **OpenCV** to pr
 
 ## ✨ Features
 
-- Realtime face detection using MediaPipe FaceLandmarker
-- Automatic zoom-in to the detected face
-- Smooth zoom transition (anti-jitter smoothing)
-- Detection of **10 main eye acupressure points** (5 on each eye)
-- Clean visualization (no labels, only points)
-- Automatically exits when the camera window is closed
-- Lightweight and runs on CPU
+* Realtime face detection using MediaPipe FaceLandmarker
+* Automatic zoom-in to the detected face
+* Smooth zoom transition (anti-jitter smoothing)
+* Detection of **10 main eye acupressure points** (5 on each eye)
+* Clean visualization (no labels, only points)
+* Automatically exits when the camera window is closed
+* Lightweight and runs on CPU
 
 ---
 
@@ -22,11 +22,11 @@ This project uses **MediaPipe Face Landmarker (Tasks API)** and **OpenCV** to pr
 
 Each eye uses 5 main points:
 
-- BL-1 (Inner eye corner)
-- GB-1 (Outer eye corner)
-- ST-1 (Lower eye area)
-- Yuyao (Middle of eyebrow)
-- Taiyang (Temple)
+* **BL-1** – Inner eye corner
+* **GB-1** – Outer eye corner
+* **ST-1** – Lower eye area
+* **Yuyao** – Middle of eyebrow
+* **Taiyang** – Temple
 
 Total: **10 points (Left + Right eye)**
 
@@ -34,24 +34,23 @@ Total: **10 points (Left + Right eye)**
 
 ## 🧠 Technology Stack
 
-- Python 3.9+
-- MediaPipe Tasks API (Face Landmarker)
-- OpenCV
-- NumPy
+* Python 3.9+
+* MediaPipe Tasks API (Face Landmarker)
+* OpenCV
+* NumPy
 
 ---
 
 ## 📁 Project Structure
 
 ```
-
 eye_acupressure/
 │── eye_acupressure_realtime.py
 │── face_landmarker.task
 │── README.md
+│── requirements.txt
 │── venv/
-
-````
+```
 
 ---
 
@@ -61,17 +60,17 @@ eye_acupressure/
 
 ```bash
 python -m venv venv
-````
+```
 
 Activate it:
 
-* Windows:
+**Windows**
 
 ```bash
 venv\Scripts\activate
 ```
 
-* Mac/Linux:
+**Mac/Linux**
 
 ```bash
 source venv/bin/activate
@@ -79,21 +78,31 @@ source venv/bin/activate
 
 ---
 
-### 2. Install Dependencies
+### 2. Install Dependencies Using requirements.txt
+
+All required libraries are listed in `requirements.txt`.
+
+Run the following command inside the project folder:
 
 ```bash
-pip install mediapipe opencv-python numpy
+pip install -r requirements.txt
 ```
+
+This command will automatically install:
+
+* mediapipe
+* opencv-python
+* numpy
 
 ---
 
 ### 3. Download FaceLandmarker Model
 
-Download the model from:
+Download the FaceLandmarker model from:
 
 [https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task](https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task)
 
-Place it in the project root folder:
+After downloading, place the file in the project root folder:
 
 ```
 eye_acupressure/face_landmarker.task
@@ -103,14 +112,18 @@ eye_acupressure/face_landmarker.task
 
 ## ▶️ Running the Application
 
+After completing installation, run the program using:
+
 ```bash
 python eye_acupressure_realtime.py
 ```
 
-* Look directly at the webcam.
-* The camera will automatically zoom in on your face.
-* Green dots will appear on the eye acupressure points.
-* Close the window or press `ESC` to exit.
+### How to Use
+
+* Look directly at the webcam
+* The camera will automatically zoom in on your face
+* Green dots will appear on the eye acupressure points
+* Close the window or press `ESC` to exit
 
 ---
 
@@ -133,13 +146,9 @@ It is **not a medical device** and should not be used for diagnosis or treatment
 
 ## 👨‍💻 Author
 
-Muhammad Iqbal Saputra
+**Muhammad Iqbal Saputra**
 Universitas Harkat Negeri – Informatics Engineering
 
 ---
 
 ## 📜 License
-
-This project is open-source and free to use for educational purposes.
-
-```
